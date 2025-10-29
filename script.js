@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             // Send data to your endpoint
-            const response = await fetch('https://chuksinno-backend-1.onrender.com/activities', {
+            const response = await fetch('https://chuksinno-backend-1.onrender.com/getting', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
